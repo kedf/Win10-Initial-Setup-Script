@@ -125,17 +125,17 @@ SetExplorerThisPC               # SetExplorerQuickAccess
 ShowThisPCOnDesktop             # HideThisPCFromDesktop
 ShowUserFolderOnDesktop         # HideUserFolderFromDesktop
 # HideDesktopFromThisPC           ShowDesktopInThisPC
-# HideDesktopFromExplorer       # ShowDesktopInExplorer
+# HideDesktopFromExplorer         ShowDesktopInExplorer
 # HideDocumentsFromThisPC         ShowDocumentsInThisPC
-# HideDocumentsFromExplorer     # ShowDocumentsInExplorer
+# HideDocumentsFromExplorer       ShowDocumentsInExplorer
 # HideDownloadsFromThisPC         ShowDownloadsInThisPC
-# HideDownloadsFromExplorer     # ShowDownloadsInExplorer
+# HideDownloadsFromExplorer       ShowDownloadsInExplorer
 # HideMusicFromThisPC             ShowMusicInThisPC
-# HideMusicFromExplorer         # ShowMusicInExplorer
+# HideMusicFromExplorer           ShowMusicInExplorer
 # HidePicturesFromThisPC          ShowPicturesInThisPC
-# HidePicturesFromExplorer      # ShowPicturesInExplorer
+# HidePicturesFromExplorer        ShowPicturesInExplorer
 # HideVideosFromThisPC            ShowVideosInThisPC
-# HideVideosFromExplorer        # ShowVideosInExplorer
+# HideVideosFromExplorer          ShowVideosInExplorer
 Hide3DObjectsFromThisPC         # Show3DObjectsInThisPC
 # Hide3DObjectsFromExplorer     # Show3DObjectsInExplorer
 # HideIncludeInLibraryMenu      # ShowIncludeInLibraryMenu
