@@ -32,7 +32,7 @@ DisableWAPPush                  # EnableWAPPush
 ### Security Tweaks ###
 # SetUACLow                     # SetUACHigh
 # EnableSharingMappedDrives     # DisableSharingMappedDrives
-# DisableAdminShares              EnableAdminShares
+  EnableAdminShares             # DisableAdminShares
   DisableSMB1                   # EnableSMB1
 # DisableSMBServer              # EnableSMBServer
 # DisableLLMNR                  # EnableLLMNR
@@ -49,7 +49,7 @@ SetCurrentNetworkPrivate        # SetCurrentNetworkPublic
 # EnableDefenderAppGuard        # DisableDefenderAppGuard
 HideAccountProtectionWarn       # ShowAccountProtectionWarn
 # DisableDownloadBlocking       # EnableDownloadBlocking
-# DisableScriptHost               EnableScriptHost
+EnableScriptHost                # DisableScriptHost
 EnableDotNetStrongCrypto        # DisableDotNetStrongCrypto
 # EnableMeltdownCompatFlag      # DisableMeltdownCompatFlag
 EnableF8BootMenu                # DisableF8BootMenu
@@ -82,7 +82,7 @@ DisableAutorun                  # EnableAutorun
 
 ### UI Tweaks ###
 DisableActionCenter             # EnableActionCenter
-# DisableLockScreen                EnableLockScreen
+EnableLockScreen                # DisableLockScreen                
 # DisableLockScreenRS1          # EnableLockScreenRS1
 HideNetworkFromLockScreen       # ShowNetworkOnLockScreen
 HideShutdownFromLockScreen      # ShowShutdownOnLockScreen
@@ -112,7 +112,7 @@ SetVisualFXPerformance          # SetVisualFXAppearance
 
 ### Explorer UI Tweaks ###
 ShowKnownExtensions             # HideKnownExtensions
-# ShowHiddenFiles                 HideHiddenFiles
+HideHiddenFiles                 # ShowHiddenFiles                 
 EnableNavPaneExpand             # DisableNavPaneExpand
 # EnableFldrSeparateProcess     # DisableFldrSeparateProcess
 # EnableRestoreFldrWindows      # DisableRestoreFldrWindows
@@ -121,21 +121,21 @@ EnableNavPaneExpand             # DisableNavPaneExpand
 HideSyncNotifications           # ShowSyncNotifications
 HideRecentShortcuts             # ShowRecentShortcuts
 SetExplorerThisPC               # SetExplorerQuickAccess
-# HideQuickAccess                 ShowQuickAccess
+ShowQuickAccess                 # HideQuickAccess                 
 ShowThisPCOnDesktop             # HideThisPCFromDesktop
 ShowUserFolderOnDesktop         # HideUserFolderFromDesktop
-# HideDesktopFromThisPC           ShowDesktopInThisPC
-# HideDesktopFromExplorer         ShowDesktopInExplorer
-# HideDocumentsFromThisPC         ShowDocumentsInThisPC
-# HideDocumentsFromExplorer       ShowDocumentsInExplorer
-# HideDownloadsFromThisPC         ShowDownloadsInThisPC
-# HideDownloadsFromExplorer       ShowDownloadsInExplorer
-# HideMusicFromThisPC             ShowMusicInThisPC
-# HideMusicFromExplorer           ShowMusicInExplorer
-# HidePicturesFromThisPC          ShowPicturesInThisPC
-# HidePicturesFromExplorer        ShowPicturesInExplorer
-# HideVideosFromThisPC            ShowVideosInThisPC
-# HideVideosFromExplorer          ShowVideosInExplorer
+ShowDesktopInThisPC             # HideDesktopFromThisPC           
+ShowDesktopInExplorer           # HideDesktopFromExplorer         
+ShowDocumentsInThisPC           # HideDocumentsFromThisPC         
+ShowDocumentsInExplorer         # HideDocumentsFromExplorer       
+ShowDownloadsInThisPC           # HideDownloadsFromThisPC         
+ShowDownloadsInExplorer         # HideDownloadsFromExplorer       
+ShowMusicInThisPC               # HideMusicFromThisPC             
+ShowMusicInExplorer             # HideMusicFromExplorer           
+ShowPicturesInThisPC            # HidePicturesFromThisPC          
+ShowPicturesInExplorer          # HidePicturesFromExplorer        
+ShowVideosInThisPC              # HideVideosFromThisPC            
+ShowVideosInExplorer            # HideVideosFromExplorer          
 Hide3DObjectsFromThisPC         # Show3DObjectsInThisPC
 # Hide3DObjectsFromExplorer     # Show3DObjectsInExplorer
 # HideIncludeInLibraryMenu      # ShowIncludeInLibraryMenu
@@ -163,7 +163,7 @@ DisableEdgeShortcutCreation     # EnableEdgeShortcutCreation
 # InstallNET23                  # UninstallNET23
 SetPhotoViewerAssociation       # UnsetPhotoViewerAssociation
 AddPhotoViewerOpenWith          # RemovePhotoViewerOpenWith
-# UninstallPDFPrinter             InstallPDFPrinter
+InstallPDFPrinter               # UninstallPDFPrinter             
 UninstallXPSPrinter             # InstallXPSPrinter
 RemoveFaxPrinter                # AddFaxPrinter
 # UninstallFaxAndScan           # InstallFaxAndScan
