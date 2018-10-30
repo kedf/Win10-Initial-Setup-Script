@@ -84,8 +84,8 @@ DisableAutorun                  # EnableAutorun
 DisableActionCenter             # EnableActionCenter
 EnableLockScreen                # DisableLockScreen                
 # DisableLockScreenRS1          # EnableLockScreenRS1
-HideNetworkFromLockScreen       # ShowNetworkOnLockScreen
-HideShutdownFromLockScreen      # ShowShutdownOnLockScreen
+ShowNetworkOnLockScreen         # HideNetworkFromLockScreen
+ShowShutdownOnLockScreen        # HideShutdownFromLockScreen       
 # DisableAeroShake              # EnableAeroShake
 DisableStickyKeys               # EnableStickyKeys
 ShowTaskManagerDetails          # HideTaskManagerDetails
