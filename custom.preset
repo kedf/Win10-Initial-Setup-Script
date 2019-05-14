@@ -33,7 +33,7 @@ DisableWAPPush                  # EnableWAPPush
 ### Security Tweaks ###
 # SetUACLow                     # SetUACHigh
 # EnableSharingMappedDrives     # DisableSharingMappedDrives
-EnableAdminShares				# DisableAdminShares
+EnableAdminShares				        # DisableAdminShares
 DisableSMB1                   	# EnableSMB1
 # DisableSMBServer              # EnableSMBServer
 # DisableLLMNR                  # EnableLLMNR
@@ -50,7 +50,7 @@ SetCurrentNetworkPrivate        # SetCurrentNetworkPublic
 # EnableDefenderAppGuard        # DisableDefenderAppGuard
 HideAccountProtectionWarn       # ShowAccountProtectionWarn
 # DisableDownloadBlocking       # EnableDownloadBlocking
-DisableScriptHost               # EnableScriptHost
+EnableScriptHost                # DisableScriptHost
 EnableDotNetStrongCrypto        # DisableDotNetStrongCrypto
 # EnableMeltdownCompatFlag      # DisableMeltdownCompatFlag
 EnableF8BootMenu                # DisableF8BootMenu
@@ -157,7 +157,7 @@ DisableOneDrive                 # EnableOneDrive
 UninstallOneDrive               # InstallOneDrive
 UninstallMsftBloat              # InstallMsftBloat
 UninstallThirdPartyBloat        # InstallThirdPartyBloat
-UninstallWindowsStore			# InstallWindowsStore
+UninstallWindowsStore			      # InstallWindowsStore
 DisableXboxFeatures             # EnableXboxFeatures
 DisableAdobeFlash               # EnableAdobeFlash
 DisableEdgePreload              # EnableEdgePreload
